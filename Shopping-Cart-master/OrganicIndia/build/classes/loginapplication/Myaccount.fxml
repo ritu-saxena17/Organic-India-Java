@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginapplication.MyaccountController">
+   <children>
+      <ImageView fitHeight="68.0" fitWidth="215.0" layoutX="685.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="82.0" layoutX="761.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="685.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="523.0" AnchorPane.leftAnchor="685.0" AnchorPane.rightAnchor="203.87553691864014" AnchorPane.topAnchor="65.0">
+         <image>
+            <Image url="@../download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="58.0" layoutX="703.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Untitled.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="120.0" layoutX="773.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../mail.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="441.0" layoutY="14.0" mnemonicParsing="false" onAction="#MyOrder" prefHeight="25.0" prefWidth="82.0" text="MY ORDERS">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Button>
+      <Text layoutX="342.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MY ACCOUNT" textAlignment="CENTER" wrappingWidth="198.13671875">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="205.0" mnemonicParsing="false" opacity="0.0" prefHeight="28.0" prefWidth="31.0" style="-fx-background-image: https://www.google.com/search?biw=1366&amp;bih=608&amp;tbm=isch&amp;sa=1&amp;ei=4XCjXPaXNYTfrQHGgL-IAw&amp;q=ONLINE+CART&amp;oq=ONLINE+CART&amp;gs_l=img.3..0l10.15023.17230..18036...0.0..0.381.1993.0j1j3j3......1....1..gws-wiz-img.......0i7i30.uTrpHU0su1A#imgrc=o4g4T5cUu-G2MM:;" />
+      <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="395.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../download%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="207.0" fitWidth="900.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../BLUE.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="255.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="58.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="257.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No">
+         <font>
+            <Font name="Arial Narrow Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="255.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email-Id">
+         <font>
+            <Font name="Arial Narrow Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="798.0" layoutY="541.0" mnemonicParsing="false" onAction="#Save" prefHeight="28.0" prefWidth="69.0" text="NEXT" />
+      <ImageView fitHeight="164.0" fitWidth="208.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../timthumb.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="261.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address">
+         <font>
+            <Font name="Arial Narrow Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="816.0" layoutY="89.0" mnemonicParsing="false" onAction="#back" prefHeight="28.0" prefWidth="58.0" text="Back" />
+      <Label fx:id="label" layoutX="356.0" layoutY="286.0" prefHeight="38.0" prefWidth="251.0" style="-fx-background-color: white;" />
+      <Label fx:id="labe4" layoutX="356.0" layoutY="466.0" prefHeight="38.0" prefWidth="251.0" style="-fx-background-color: white;" />
+      <Label fx:id="labe3" layoutX="356.0" layoutY="408.0" prefHeight="38.0" prefWidth="251.0" style="-fx-background-color: white;" />
+      <Label fx:id="labe2" layoutX="356.0" layoutY="347.0" prefHeight="38.0" prefWidth="251.0" style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

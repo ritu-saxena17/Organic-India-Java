@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #084c70;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginapplication.FXMLMenuController">
+   <children>
+      <AnchorPane layoutX="278.0" layoutY="131.0" prefHeight="400.0" prefWidth="399.0" style="-fx-background-color: #2fd4e2 #2fd4e2;">
+         <children>
+            <TextField fx:id="textEmail" layoutX="183.0" layoutY="101.0" promptText="Enter User ID" />
+            <PasswordField fx:id="textPassword" layoutX="183.0" layoutY="150.0" promptText="Enter Password" />
+            <Label layoutX="31.0" layoutY="100.0" prefHeight="27.0" prefWidth="138.0" text="Enter Username" textFill="#120fd5">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="31.0" layoutY="147.0" prefHeight="32.0" prefWidth="138.0" text="Enter Password" textFill="#273cd7">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="174.0" layoutY="261.0" mnemonicParsing="false" onAction="#signup" style="-fx-background-color: #084c70;" text="Sign UP" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="335.0" layoutY="51.0" text="Create a new account" textAlignment="CENTER" textFill="#f0e9e9" textOverrun="WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB" size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="778.0" layoutY="544.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #14adad;" text="Back" textFill="WHITE" />
+   </children>
+</AnchorPane>
